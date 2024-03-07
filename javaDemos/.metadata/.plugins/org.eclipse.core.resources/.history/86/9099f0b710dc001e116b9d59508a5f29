@@ -1,0 +1,14 @@
+package arkadasSayilar;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 220 - 284
+		int sayi1 = 220;
+		int sayi2 = 284;
+		int toplam1 = 0;
+		int toplam2 = 0;
+
+	}
+
+}

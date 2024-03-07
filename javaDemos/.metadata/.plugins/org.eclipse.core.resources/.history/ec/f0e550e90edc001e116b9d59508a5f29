@@ -1,0 +1,19 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'E';
+		
+		switch (harf) {
+		case 'a','o','u','ı': {
+			System.out.println("Kalın sesli harf");
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + harf);
+		}
+
+	}
+
+}
